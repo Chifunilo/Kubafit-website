@@ -1,14 +1,15 @@
-body{}
+body{background-color: #999999;}
 .appbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #2a2a2a;
     height: 60px;
 }
 
 .hamburger-menu {
     background: none;
+    color: rgb(0, 238, 59);
     border: none;
     font-size: 24px;
     cursor: pointer;
@@ -19,30 +20,33 @@ body{}
 }
 
 .right-button {
-    background-color: #007bff;
+    background-image: url(images/10465.jpg);
+    background-size: cover;
     color: white;
     border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
 }
 
-.clothes{      display: flex;
-    position: relative;
-    justify-content: space-between;
+.clothes{     display: flex;
+    justify-content: center; /* Center horizontally within clothes container */
     width: 100%;
     margin-top: 20px;}
 
     .Clothesdetails {
-        width: 400px;
-        height: 200px;
+        width: 1000px;
+        height: 500px;
         background-color: aqua;
         position: relative;
         z-index: 2;
         margin-bottom: -40px;
         padding: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        background-image: url('your-image-url-here');
+        background-image: url('images/wearecafune~p~BjXotQhlArb~1.jpg');
         background-size: cover;
         background-position: center;
         display: flex;
@@ -57,6 +61,48 @@ body{}
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     .Clothesdetails:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    .cyclinglbl{margin-top: 100px;}
+
+.cyclingessentials{   display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Align vertically in the center */
+    width: 100%;
+    margin-top: 20px;
+    gap: 20px}
+
+    .essential1{background-image: url('images/wearecafune~p~BjXotQhlArb~1.jpg');
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        width: 400px;
+        height: 400px;}
+
+.essential2{background-image: url('images/wearecafune~p~BjXotQhlArb~1.jpg');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;}
+
+.essential3{background-image: url('images/wearecafune~p~BjXotQhlArb~1.jpg');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;}
+
+    .essential1:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    .essential2:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    .essential3:hover {
         transform: scale(1.05);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     }

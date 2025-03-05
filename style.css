@@ -1,0 +1,64 @@
+body{}
+.appbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 60px;
+}
+
+.hamburger-menu {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+.right-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.clothes{      display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;}
+
+    .Clothesdetails {
+        width: 400px;
+        height: 200px;
+        background-color: aqua;
+        position: relative;
+        z-index: 2;
+        margin-bottom: -40px;
+        padding: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        background-image: url('your-image-url-here');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        cursor: pointer;
+        border: none;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .Clothesdetails:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+

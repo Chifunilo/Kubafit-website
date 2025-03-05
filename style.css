@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('fonts/Poppins-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Poppins-Light';
+    src: url('fonts/Poppins-Light.ttf');
+  }
+  @font-face {
+    font-family: 'Nunito-Regular';
+    src: url('fonts/Nunito-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('fonts/Poppins-SemiBold.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Medium';
+    src: url('fonts/Poppins-Medium.ttf');
+  }
+  
+  @font-face {
+    font-family: 'JuliusSansOne-Regular';
+    src: url('css/fonts/JuliusSansOne-Regular.ttf');
+  }
+  
 body{background-color: #999999;}
 .appbar {
     display: flex;
@@ -20,7 +48,7 @@ body{background-color: #999999;}
 }
 
 .right-button {
-    background-image: url(images/10465.jpg);
+    background-image: url("css/images/10465.jpg");
     background-size: cover;
     color: white;
     border: none;
@@ -40,13 +68,12 @@ body{background-color: #999999;}
     .Clothesdetails {
         width: 1000px;
         height: 500px;
-        background-color: aqua;
         position: relative;
         z-index: 2;
         margin-bottom: -40px;
         padding: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        background-image: url('images/wearecafune~p~BjXotQhlArb~1.jpg');
+        background-image: url('css/images/clothongpicturedetails.png');
         background-size: cover;
         background-position: center;
         display: flex;
@@ -60,34 +87,80 @@ body{background-color: #999999;}
         font-weight: bold;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+    .clthesdetailstital1{margin-bottom: 400px;
+    margin-right: 500px;}
+
+    .clthesdetailstital2{margin-bottom: 400px;
+        margin-right: 500px;} 
+
+        .clthesdetailstital3{margin-bottom: 400px;
+       margin-right: 500px;}
+
+  .clthesdetailstital4{margin-bottom: 400px;
+                margin-right: 500px;}
+
     .Clothesdetails:hover {
         transform: scale(1.05);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     }
-    .cyclinglbl{margin-top: 100px;}
+    .cyclinglbl{margin-top: 100px;
+    font-family: 'JuliusSansOne-Regular';}
+
+    .weightslbl{margin-top: 100px;
+        font-family: 'JuliusSansOne-Regular'}
 
 .cyclingessentials{   display: flex;
-    justify-content: space-between; /* Space between items */
-    align-items: center; /* Align vertically in the center */
-    width: 100%;
+    justify-content: space-between;
+    align-items: center; 
     margin-top: 20px;
     gap: 20px}
 
-    .essential1{background-image: url('images/wearecafune~p~BjXotQhlArb~1.jpg');
-        background-size: cover;
+    .essentialimg1{background-color: transparent;
+        border-color: transparent;}
+
+        .essentialimg2{background-color: transparent;
+            border-color: transparent;}
+
+            .essentialimg3{background-color: transparent;
+                border-color: transparent;}
+
+                .essentialimg4{background-color: transparent;
+                    border-color: transparent;}
+
+    .essential1{background-image: url('css/images/pngegg.png');
+        background-size: 50vh;
+        background-color: rgb(255, 255, 255);
         background-position: center;
         cursor: pointer;
         width: 400px;
         height: 400px;}
 
-.essential2{background-image: url('images/wearecafune~p~BjXotQhlArb~1.jpg');
+        .itemanddescription{display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            margin-top: 20px;
+            gap: 20px;
+            width: 400px;
+            height: 600px;
+        background-color: bisque;}
+
+        
+
+.essential2{background-image: url('css/images/pngimg.com - bicycle_helmet_PNG9843.png');
+    background-size:cover;
+    background-position: center;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;}
+
+.essential3{background-image: url('css/images/GRAVELRED-PRODUCT-1-416x416.png');
     background-size: cover;
     background-position: center;
     cursor: pointer;
     width: 400px;
     height: 400px;}
 
-.essential3{background-image: url('images/wearecafune~p~BjXotQhlArb~1.jpg');
+    .essential4{background-image: url('css/images/pngimg.com\ -\ bicycle_PNG5391.png');
     background-size: cover;
     background-position: center;
     cursor: pointer;
@@ -106,5 +179,52 @@ body{background-color: #999999;}
         transform: scale(1.05);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     }
+    .essential4:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    .weightslbl{margin-top: 100px;}
+
+    .Weightessentials{   display: flex;
+        justify-content: space-between; /* Space between items */
+        align-items: center; /* Align vertically in the center */
+        width: 100%;
+        margin-top: 20px;
+        gap: 20px}
+    
+        .essentialweight1{background-image: url('css/images/wearecafune~p~BjXotQhlArb~1.jpg');
+            background-size: cover;
+            background-position: center;
+            cursor: pointer;
+            width: 400px;
+            height: 400px;}
+    
+    .essentialweight2{background-image: url('css/images/wearecafune~p~BjXotQhlArb~1.jpg');
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        width: 400px;
+        height: 400px;}
+    
+    .essentialweight3{background-image: url('css/images/wearecafune~p~BjXotQhlArb~1.jpg');
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        width: 400px;
+        height: 400px;}
+    
+        .essentialweight1:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .essentialweight2:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .essentialweight3:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+       
     
 
